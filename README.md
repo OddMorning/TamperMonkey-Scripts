@@ -54,6 +54,7 @@ MonkeyConfig is a simple configuration library for user scripts. It allows easy 
 
 Inspired by [MonkeyConfig](https://github.com/odyniec/MonkeyConfig). Lite version has modern design and is compatible with the original script configs.
 
+![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/MonkeyConfig%20Lite%20-%20Menu.png)
 ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/MonkeyConfig%20Lite.png)
 
 ### Usage example
