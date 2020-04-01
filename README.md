@@ -44,10 +44,8 @@ Scripts that change logic of multiple sites
 * Change scrolling speed in options;
 * Inspired by [Everything](https://www.voidtools.com/) app.
 
-#### Before:
-![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20Before.gif)
-#### After:
-![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20After.gif)
+#### Before and after:
+![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20Before.gif) ==> ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20After.gif)
 
 
 # Lib
