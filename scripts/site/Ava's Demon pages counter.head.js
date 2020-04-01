@@ -8,6 +8,6 @@
 // @icon         https://avasdemon.com/favicon.ico
 // @grant        none
 // @run-at       document-start
-// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/Ava's%20Demon%20pages%20counter.head.js
-// @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/Ava's%20Demon%20pages%20counter.user.js
+// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/Ava's%20Demon%20pages%20counter.head.js
+// @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/Ava's%20Demon%20pages%20counter.user.js
 // ==/UserScript==
