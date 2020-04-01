@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MonkeyConfig Lite
 // @namespace    https://github.com/OddMorning
-// @version      1.0.1
+// @version      1.0.2
 // @author       OddMorning
 // @date         2020-04-01
 // @description  Easy configuration dialog builder for user scripts, inspired by MonkeyConfig
@@ -147,9 +147,9 @@ let MonkeyConfig
     }
 
     .${classes.prefix}-input-checkbox {
-      justify-self: center;
+      /* justify-self: center; */
       align-self: center;
-      margin: 0;
+      /* margin: 0; */
     }
 
     .${classes.prefix}-btn {
