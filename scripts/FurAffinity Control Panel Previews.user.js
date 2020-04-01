@@ -7,8 +7,8 @@
 // @match        http*://www.furaffinity.net/*
 // @grant        GM_addStyle
 // @grant        unsafeWindow
-// @updateURL    ...
-// @downloadURL  ...
+// @updateURL    https://raw.githubusercontent.com/OddMorning/TamperMonkey-Scripts/master/scripts/FurAffinity%20Control%20Panel%20Previews.head.js
+// @downloadURL  https://raw.githubusercontent.com/OddMorning/TamperMonkey-Scripts/master/scripts/FurAffinity%20Control%20Panel%20Previews.user.js
 // @noframes
 // ==/UserScript==
 /* jshint -W097 */
