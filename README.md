@@ -2,7 +2,7 @@
 Just a personal collection of ~~not very high quality~~ TamperMonkey scripts.
 
 # A bit of introduction
-[TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) is a Chrome extension to manage user scripts. After it's installed, every link ending with `.user.js` will be caught by the extension and the user will be prompted to install the script.
+[TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) is a Chrome extension to manage user scripts. After it's installed, every link ending with `.user.js` will be caught by the extension and user will be prompted to install the script.
 
 To install one of the scripts listed on this page, just click the header, the rest will be done by the extension.
 
