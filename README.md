@@ -48,7 +48,7 @@ Scripts that change logic of multiple sites
 ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20Before.gif) ==> ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20After.gif)
 
 
-# Lib
+# Libraries
 Scripts to be `@require`'d by other scripts
 
 ## [MonkeyConfig Lite]
