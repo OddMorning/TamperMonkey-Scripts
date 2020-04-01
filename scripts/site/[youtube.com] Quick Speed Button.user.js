@@ -13,7 +13,7 @@
 // @grant        GM_setValue
 // @grant        GM_addStyle
 // @grant        GM_registerMenuCommand
-// @require      https://raw.githubusercontent.com/OddMorning/TamperMonkey-Scripts/master/lib/monkeyconfig-lite.js
+// @require      https://raw.githubusercontent.com/OddMorning/TamperMonkey-Scripts/master/scripts/lib/monkeyconfig-lite.js
 // ==/UserScript==
 'use strict';
 
