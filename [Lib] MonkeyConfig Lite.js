@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MonkeyConfig Lite
 // @namespace    https://github.com/OddMorning
-// @version      1.0
+// @version      1.0.1
 // @author       OddMorning
 // @date         2020-04-01
 // @description  Easy configuration dialog builder for user scripts, inspired by MonkeyConfig
@@ -51,6 +51,7 @@ let MonkeyConfig
       justify-content: center;
       align-items: center;
       z-index: 999999999;
+      font-size: 16px;
       position: fixed;
       display: flex;
       bottom: 0;
@@ -78,11 +79,11 @@ let MonkeyConfig
       transition: transform var(--TransTmAreaMediumOut) var(--TransFnDecelerate), opacity var(--TransTmAreaMediumOut) var(--TransFnDecelerate);
       box-shadow: var(--ShadowSmall);
       background-color: #FFF;
-      padding: 1rem 1.5rem;
+      padding: 1em 1.5em;
       border-radius: 2px;
       z-index: 99999999;
       min-width: 350px;
-      grid-gap: .75rem;
+      grid-gap: .75em;
       display: grid;
     }
     #${classes.prefix}-container.${classes.beforeAppear} #${classes.prefix}-content {
@@ -98,10 +99,10 @@ let MonkeyConfig
       --logo-size: 32px;
       grid-template-columns: var(--logo-size) 1fr var(--logo-size);
       align-items: center;
-      font-size: 1.25rem;
+      font-size: 1.25em;
       text-align: center;
       user-select: none;
-      grid-gap: 1rem;
+      grid-gap: 1em;
       display: grid;
     }
 
@@ -131,7 +132,7 @@ let MonkeyConfig
     #${classes.prefix}-body {
       grid-template-columns: max-content 1fr max-content;
       align-items: stretch;
-      grid-gap: .5rem 1rem;
+      grid-gap: .5em 1em;
       display: grid;
     }
 
@@ -140,7 +141,7 @@ let MonkeyConfig
     }
 
     .${classes.prefix}-field {
-      padding: .25rem .5rem;
+      padding: .25em .5em;
       font: inherit;
       outline: none;
     }
