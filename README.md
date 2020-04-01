@@ -27,13 +27,11 @@ Scripts that work on some particular site
 
 ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/%5Bfuraffinity.net%5D%20Control%20Panel%20Previews.png)
 
-<!--
 ## [`avasdemon.com` Pages Counter]
 * Adds a pages counter;
 * Locks the "next" button and makes picture unclickable if there are no more pages left
 
 ![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/%5Bavasdemon.com%5D%20Pages%20Counter.png)
--->
 
 
 # Common scripts
