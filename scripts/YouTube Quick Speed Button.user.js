@@ -6,8 +6,8 @@
 // @description  Script adds a custom button for setting playback speed
 // @match        https://www.youtube.com/*
 // @icon         https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
-// @updateURL    ...
-// @downloadURL  ...
+// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/YouTube%20Quick%20Speed%20Button.head.js
+// @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/YouTube%20Quick%20Speed%20Button.user.js
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_addStyle
