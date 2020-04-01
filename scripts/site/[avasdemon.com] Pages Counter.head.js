@@ -8,8 +8,8 @@
 // @icon         https://avasdemon.com/favicon.ico
 // @match        https://avasdemon.com/pages*
 // @match        https://www.avasdemon.com/pages*
-// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/Ava's%20Demon%20pages%20counter.head.js
-// @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/Ava's%20Demon%20pages%20counter.user.js
+// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bavasdemon.com%5D%20Pages%20Counter.head.js
+// @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bavasdemon.com%5D%20Pages%20Counter.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
