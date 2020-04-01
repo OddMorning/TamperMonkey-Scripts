@@ -25,6 +25,8 @@ Scripts that work on some particular site
 ## [`furaffinity.net` Control Panel Previews]
 * Adds control panel previews for comments and faved pictures (for modern design only)
 
+![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/%5Bfuraffinity.net%5D%20Control%20Panel%20Previews.png)
+
 <!--
 ## [`avasdemon.com` Pages Counter]
 * Adds a pages counter;
