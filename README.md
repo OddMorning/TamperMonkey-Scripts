@@ -39,10 +39,15 @@ Scripts that work on some particular site
 # Common scripts
 Scripts that change logic of multiple sites
 
-## [Better MMB Scroll]
+## [Responsive MMB Scroll]
 * Hold MMB (Middle Mouse Button) and move cursor up and down to scroll pages quickly;
 * Change scrolling speed in options;
 * Inspired by [Everything](https://www.voidtools.com/) app.
+
+#### Before:
+![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20Before.gif)
+#### After:
+![](https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/assets/Responsive%20MMB%20Scroll%20-%20After.gif)
 
 
 # Lib
@@ -167,6 +172,6 @@ const Config = new MonkeyConfig({
 [`furaffinity.net` Control Panel Previews]: https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bfuraffinity.net%5D%20Control%20Panel%20Previews.user.js
 [`avasdemon.com` Pages Counter]: https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bavasdemon.com%5D%20Pages%20Counter.user.js
 
-[Better MMB Scroll]: https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/common/Better%20MMB%20Scroll.user.js
+[Responsive MMB Scroll]: https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/common/Responsive%20MMB%20Scroll.user.js
 
 [MonkeyConfig Lite]: https://github.com/OddMorning/TamperMonkey-Scripts/blob/master/scripts/lib/monkeyconfig-lite.js
