@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         FurAffinity CP Previews
 // @version      1.1
+// @date         2019-09-31
 // @description  Adds thumbnails for favs and readable comments in the user control panes
 // @author       OddMorning
 // @icon         http://www.furaffinity.net/themes/beta/img/favicon.ico
