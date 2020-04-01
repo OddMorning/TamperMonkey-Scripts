@@ -7,13 +7,12 @@
 // @homepage     https://github.com/OddMorning/TamperMonkey-Scripts
 // @icon         http://www.furaffinity.net/themes/beta/img/favicon.ico
 // @match        http*://www.furaffinity.net/*
-// @grant        GM_addStyle
-// @grant        unsafeWindow
 // @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bfuraffinity.net%5D%20Control%20Panel%20Previews.head.js
 // @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Bfuraffinity.net%5D%20Control%20Panel%20Previews.user.js
+// @grant        GM_addStyle
+// @grant        unsafeWindow
 // @noframes
 // ==/UserScript==
-
 /* jshint -W097 */
 /* jshint esnext: true */
 'use strict';
