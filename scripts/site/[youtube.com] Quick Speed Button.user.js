@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [youtube.com] Quick Speed Button
-// @version      1.6.2
-// @date         2020-04-01
+// @version      1.6.3
+// @date         2020-04-04
 // @description  Script adds a custom button for setting playback speed
 // @author       OddMorning
 // @homepage     https://github.com/OddMorning/TamperMonkey-Scripts
@@ -13,7 +13,7 @@
 // @grant        GM_setValue
 // @grant        GM_addStyle
 // @grant        GM_registerMenuCommand
-// @require      https://raw.githubusercontent.com/OddMorning/TamperMonkey-Scripts/master/scripts/lib/monkeyconfig-lite.js
+// @require      https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/lib/monkeyconfig-lite.js
 // ==/UserScript==
 'use strict';
 
@@ -246,6 +246,8 @@ function onTimeUpdate() {
   const currTimeRaw = els.video.currentTime
   const durationRaw = els.video.duration
   const rate = els.video.playbackRate
+
+  if (durationRaw === 0) return
 
   const currTime = els.video.currentTime / rate
   const duration = els.video.duration / rate
