@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [youtube.com] Quick Speed Button
-// @version      1.6.3
-// @date         2020-04-04
+// @version      1.6.4
+// @date         2020-05-01
 // @description  Script adds a custom button for setting playback speed
 // @author       OddMorning
 // @homepage     https://github.com/OddMorning/TamperMonkey-Scripts
@@ -138,7 +138,7 @@ GM_addStyle(`
   background-color: var(--yt-spec-icon-disabled);
   position: absolute;
   margin: 0 -.5rem;
-  bottom: -12px;
+  bottom: -13px;
   height: 2px;
   right: 0;
   left: 0;
