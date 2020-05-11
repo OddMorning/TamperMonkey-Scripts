@@ -7,7 +7,7 @@
 // @homepage     https://github.com/OddMorning/TamperMonkey-Scripts
 // @match        https://www.youtube.com/*
 // @icon         https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png
-// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Byoutube.com%5D%20Quick%20Speed%20Button.head.js
+// @updateURL    https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Byoutube.com%5D%20Quick%20Speed%20Button.meta.js
 // @downloadURL  https://github.com/OddMorning/TamperMonkey-Scripts/raw/master/scripts/site/%5Byoutube.com%5D%20Quick%20Speed%20Button.user.js
 // @grant        GM_getValue
 // @grant        GM_setValue
