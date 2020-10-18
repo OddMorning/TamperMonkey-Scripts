@@ -289,7 +289,6 @@ function onTimeUpdate() {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 function updateVideoElement(el) {
-  console.log('---------',el)
     els.video = el
     attachListeners(el)
 }
