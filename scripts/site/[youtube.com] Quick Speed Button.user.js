@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [youtube.com] Quick Speed Button
-// @version      1.6.4
-// @date         2020-05-01
+// @version      1.7.0
+// @date         2020-10-18
 // @description  Script adds a custom button for setting playback speed
 // @author       OddMorning
 // @homepage     https://github.com/OddMorning/TamperMonkey-Scripts
@@ -25,10 +25,20 @@ const Config = new MonkeyConfig({
       type: 'checkbox',
       default: false,
     },
+    show_time_bar: {
+      label: 'Show custom time bar',
+      type: 'checkbox',
+      default: true,
+    },
+    show_speed_selector: {
+      label: 'Show custom speed selector',
+      type: 'checkbox',
+      default: true,
+    },
     enable_hotkeys: {
       label: 'Enable Hotkeys',
       type: 'checkbox',
-      default: true,
+      default: false,
     },
     speed_range: {
       label: 'Speed Range',
@@ -87,6 +97,22 @@ GM_addStyle(`
 `)
 }
 
+if (!Config.get('show_time_bar')) {
+GM_addStyle(`
+#quick_controls .qc-time-container {
+  display: none !important;
+}
+`)
+}
+
+if (!Config.get('show_speed_selector')) {
+GM_addStyle(`
+#quick_controls .qc-speed {
+  display: none !important;
+}
+`)
+}
+
 GM_addStyle(`
 #quick_controls {
   --color-bg: var(--yt-spec-general-background-a);
@@ -138,7 +164,7 @@ GM_addStyle(`
   background-color: var(--yt-spec-icon-disabled);
   position: absolute;
   margin: 0 -.5rem;
-  bottom: -13px;
+  bottom: -12px;
   height: 2px;
   right: 0;
   left: 0;
@@ -263,6 +289,7 @@ function onTimeUpdate() {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 function updateVideoElement(el) {
+  console.log('---------',el)
     els.video = el
     attachListeners(el)
 }
@@ -404,7 +431,7 @@ function attachListeners(el) {
 /* jshint ignore: start */
 
 observeElements(
-    ['video',												updateVideoElement],
+    ['ytd-watch-flexy video',								updateVideoElement],
     ['ytd-video-primary-info-renderer #top-level-buttons',	createControls],
 )
 
